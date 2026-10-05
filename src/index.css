@@ -1,0 +1,46 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap");
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+:root {
+  --background: 0.965 0.018 80;
+  --foreground: 0.17 0.01 60;
+  --card: 0.985 0.01 80;
+  --primary: 0.17 0.01 60;
+  --primary-foreground: 0.965 0.018 80;
+  --muted: 0.93 0.022 78;
+  --muted-foreground: 0.45 0.02 60;
+  --accent: 0.86 0.06 10;
+  --accent-foreground: 0.2 0.02 10;
+  --pink: 0.86 0.06 10;
+  --pink-deep: 0.6 0.12 8;
+  --ink: 0.17 0.01 60;
+  --border: 0.86 0.025 75;
+  --ring: 0.68 0.11 8;
+}
+* {
+  border-color: oklch(var(--border));
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+body {
+  background-color: oklch(var(--background));
+  color: oklch(var(--foreground));
+  font-family: "Manrope", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.bg-blush {
+  background-image: linear-gradient(135deg, oklch(0.9 0.05 15), oklch(0.93 0.03 75));
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
