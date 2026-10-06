@@ -3,7 +3,7 @@ import type { Project, SkillGroup, TrainingItem } from "../types/portfolio";
 export const EMAIL = "1earth7seas@gmail.com";
 export const LINKEDIN_LABEL = "linkedin.com/in/walaa-mahmoud-44b350311";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/walaa-mahmoud-44b350311";
-export const PORTRAIT_URL = "/photo_2026-10-04_17-58-28.jpg";
+export const PORTRAIT_URL = "photo_2026-10-04_17-58-28.jpg";
 
 
 export const NAV = [
@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
   tech: ["React", "JavaScript", "HTML", "CSS"],
   role: ["Developed Front-End interfaces.", "Built reusable UI components.", "Worked on responsive layouts.", "Focused on creating a clear and easy-to-use shopping experience."],
   type: "Front-End Development",
-  image: "/084630e3-cc27-44df-a696-b54223e53e6b.jpg"
+  image: "084630e3-cc27-44df-a696-b54223e53e6b.jpg"
 },
 {
   title: "Global Food App",
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
   tech: ["Figma", "UI/UX Design"],
   role: ["Created wireframes.", "Designed the user interface.", "Developed the interactive prototype.", "Focused on navigation and overall user experience."],
   type: "UI/UX Design",
-  image: "/14f88731-3f50-44ba-aeb8-89d8f4788224.jpg"
+  image: "14f88731-3f50-44ba-aeb8-89d8f4788224.jpg"
 },
 {
   title: "Digital Café Menu",
@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
   tech: ["Figma", "UI/UX Design"],
   role: ["Designed the interface.", "Organized menu categories and content.", "Created the user flow and visual layout."],
   type: "UI/UX Design",
-  image: "/e3361988-40a6-4bfc-945f-81abbddf0fd2.jpg"
+  image: "e3361988-40a6-4bfc-945f-81abbddf0fd2.jpg"
 },
 {
   title: "Books Application",
@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
   tech: ["Flutter", "Dart"],
   role: ["Worked on the application interface.", "Implemented the front-end using Flutter.", "Focused on creating a simple and user-friendly reading experience."],
   type: "Mobile Development",
-  image: "/a7c6a30d-548d-4978-973f-f90f185659f7.jpg"
+  image: "a7c6a30d-548d-4978-973f-f90f185659f7.jpg"
 }];
 
 
